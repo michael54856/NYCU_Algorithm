@@ -94,7 +94,7 @@ double findShortestDistance(int from, int to, Point *pointsX,  Point *pointsY)
 
     for(int i = 0; i < pointsInMidCount; i++)
     {
-        for(int j = 1; j <= 4; j++)
+        for(int j = 1; j <= 3; j++)
         {
             if(i+j >= pointsInMidCount)
             {
